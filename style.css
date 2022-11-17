@@ -1,8 +1,8 @@
 h1{
     text-align: center;
-    line-height: 100px;
-    font-family: fantasy, serif, sans-serif;
-    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    font-size: 80px;
 }
 body {
     background-color: rgb(175, 203, 255);
