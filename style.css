@@ -1,11 +1,15 @@
 h1{
     text-align: center;
     line-height: 100px;
-    font-family: fantasy, sans-serif;
+    font-family: fantasy, serif, sans-serif;
     font-size: 50px;
 }
 body {
     background-color: rgb(175, 203, 255);
+}
+.texto{
+    font-size: 24px;
+    font-family: fantasy, serif, sans-serif;
 }
 #imagens{
     display: block;
