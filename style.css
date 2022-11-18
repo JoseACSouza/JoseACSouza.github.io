@@ -7,14 +7,14 @@
 }
 body {
     background-color: #111111;
-    color: green;
+    color: #28cc00;
     font-family: 'Press Start 2P', cursive, sans-serif;
 }
 .inicio {
     text-align: center;
     line-height: 50px;
     font-size: 40px;
-    color:green;
+    color:#00FF33;
     margin-bottom:5px ;
     padding: 20px;
 
@@ -26,27 +26,30 @@ body {
     margin-right: 20px;
     float: left;
     border-radius: 5%;
-    border: green;
+    border: #00ff33;
     border-style: groove;
 
 }
-.description-text{
+.description-text h2{
+    color:#00FF33
+}
+.description-text {
+    margin-top: 20px;
     height: 160px;
 }
 .skills{
     margin-top: 10px;
     margin-left: 20px;
     position: absolute;
-    max-height: 200px;
     line-height: 20px;
     max-width: 50%;
     font-size: 20px;
 }
 .info{
+    color: #00ff33;
     margin-top: 10px;
     max-width: 50%;
     margin-left: 50%;
-    height: 200px;
     line-height: 20px;
     font-size: 20px;
 }
