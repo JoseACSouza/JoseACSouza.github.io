@@ -80,3 +80,9 @@ body {
     list-style-type: square;
     font-size: 14px;
 }
+.baseboard{
+    margin-top: 80px;
+    padding-bottom: 50px;
+    background-image: url(./images/aliens-moving.gif);
+    height: 50px;
+}
