@@ -1,20 +1,97 @@
-h1{
-    text-align: center;
-    line-height: 50px;
-    font-family: 'Dancing Script', cursive, sans-serif;
-    font-size: 80px;
+* {
+    margin: 0;
+    padding: 0;
+}
+.inicio:hover{
+    background-image: url(./images/matrix-code-animation-gif-free-animated-background.gif);
 }
 body {
-    background-color: rgb(175, 203, 255);
+    background-color: #111111;
+    color: #28cc00;
+    font-family: 'Press Start 2P', cursive, sans-serif;
 }
-.texto{
-    font-size: 24px;
-    font-family: fantasy, serif, sans-serif;
+.inicio {
+    text-align: center;
+    line-height: 50px;
+    font-size: 40px;
+    color:#00FF33;
+    margin-bottom:5px ;
+    padding: 20px;
+
 }
-#imagens{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 240px;
-    border: 2px solid black;
+
+.images {
+    width: 150px;
+    margin-left: 5px;
+    margin-right: 20px;
+    float: left;
+    border-radius: 5%;
+    border: #00ff33;
+    border-style: groove;
+
+}
+.description-text h2{
+    color:#00FF33
+}
+.description-text {
+    margin-top: 20px;
+    height: 160px;
+}
+.skills{
+    display: inline-block;
+    margin-left: 32px;
+    line-height: 20px;
+    width: 46%;
+    font-size: 20px;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+.index{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00FF33;
   }
+  
+  li a{
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #111111;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+    color: #00FF33;
+  }
+.item{
+    list-style-type: square;
+    font-size: 14px;
+}
+.footer{
+    margin-top: 20px;
+    padding: 40px;
+    height: 20px;
+}
+.footer:hover{
+    background-image: url(./images/aliens-moving.gif);
+}
+.hero-list{
+    width: 100%;
+    height: auto;
+}
+.project, .contato{
+    margin-left: 32px;
+    margin-bottom: 20px;
+    width: 95%;
+}
+.contato-item{
+    margin-bottom: 20px;
+    align-items: center;
+}
