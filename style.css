@@ -51,7 +51,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #00FF33;
   }
   
   li a{
@@ -60,7 +60,7 @@ body {
   
   li a {
     display: block;
-    color: white;
+    color: #111111;
     text-align: center;
     padding: 16px;
     text-decoration: none;
@@ -68,12 +68,14 @@ body {
   
   li a:hover {
     background-color: #111111;
+    color: #00FF33;
   }
 .item{
     list-style-type: square;
     font-size: 14px;
 }
 .footer{
+    margin-top: 20px;
     padding: 40px;
     height: 20px;
 }
@@ -83,4 +85,8 @@ body {
 .hero-list{
     width: 100%;
     height: auto;
+}
+.project, .contato{
+    margin-left: 32px;
+    margin-bottom: 20px;
 }
