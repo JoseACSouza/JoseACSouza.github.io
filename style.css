@@ -93,6 +93,6 @@ body {
     width: 95%;
 }
 .contato-item{
-    margin-bottom: 20px;
-    align-items: center;
+    margin: auto;
+    width: 30%;
 }
