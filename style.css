@@ -30,7 +30,7 @@ body {
 
 }
 .description-text h2{
-    color:#00FF33
+    color:#00FF33;
 }
 .description-text {
     display: inline-block;
@@ -100,4 +100,27 @@ body {
 }
 .imgdescription{
     margin-left: 5%;
+}
+#project1{
+    margin-bottom: 12px;
+}
+#first-project{
+    color: #28cc00;
+    margin: 3%;
+    padding: 3px;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    width: 210px;
+    border: 3px solid #28cc00;
+    border-radius: 1%;
+
+}
+#first-project:hover{
+    color: #111111;
+    background-color: #28cc00;
+
+}
+#data-project1:hover{
+    color: red;
 }
