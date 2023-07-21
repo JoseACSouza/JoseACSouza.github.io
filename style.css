@@ -1,9 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 .inicio:hover{
     background-image: url(./images/matrix-code-animation-gif-free-animated-background.gif);
+}
+.title-project{
+    font-size: 14px;
+    font-weight: bold;
 }
 body {
     background-color: #111111;
@@ -87,24 +92,20 @@ body {
     height: auto;
     margin-top: 2%;
 }
-.project, .contato{
-    margin-left: 5%;
-    margin-bottom: 20px;
-    width: 95%;
+.projects, .contato {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: center;
 }
-.contato-item{
+.contato-item {
     display: inline-block;
-    margin-top: 3%;
-    width: 30%;
-    margin-left: 25%;
+    margin-bottom: 3%;
 }
 .imgdescription{
     margin-left: 5%;
 }
-#project1{
-    margin-bottom: 12px;
-}
-#first-project{
+.project-items {
     color: #28cc00;
     margin: 3%;
     padding: 3px;
@@ -112,15 +113,58 @@ body {
     display: inline-block;
     text-align: center;
     width: 210px;
-    border: 3px solid #28cc00;
-    border-radius: 1%;
-
 }
-#first-project:hover{
+.project-items:hover {
     color: #111111;
     background-color: #28cc00;
 
 }
-#data-project1:hover{
-    color: red;
+#project, #contact {
+    margin-left: 5%;
+}
+
+#cat {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+#cat1{
+    height: 100px;
+    width: 100px;
+    background-color:#111111;
+}
+
+#cat2{
+    height: 73px;
+    width: 139px;
+    background-color:#111111;
+}
+
+#cat3{
+    height: 73px;
+    width: 115px;
+    background-color:#111111;
+}
+
+#cat1:hover {
+    background-image: url(./images/cat1.gif);
+}
+
+#cat2:hover {
+    background-image: url(./images/cat2.gif);
+}
+
+#cat3:hover {
+    background-image: url(./images/cat3.gif);
+}
+::-webkit-scrollbar-track {
+    background-color: #111111;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #111111;
+}
+::-webkit-scrollbar-thumb {
+    background: gray;
 }
