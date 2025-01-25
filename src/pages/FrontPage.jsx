@@ -1,22 +1,27 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import pc from '../img/svg/pc.svg';
 import tablet from '../img/tablet.png';
 import www from '../img/svg/www.svg';
 
-const FrontPage = ()=> (
-  <div className="flex flex-col justify-between h-screen max-w-screen">
+const FrontPage = ()=> {
+  const scrollToBottom = () => {
+    window.scrollTo(0, document.body.scrollHeight);
+  };
+  return(
+    <div className="flex flex-col justify-between h-screen max-w-screen">
     <div className="flex justify-between m-6">
       <div className="flex flex-col">
         <span className="font-extrabold text-xl">José</span>
         <span className="text-main-orange font-extrabold text-xl">Alexandre</span>
       </div>
       <div>
-        <a
+        <button
           className="p-2 border rounded-full border-solid border-black text-sm"
-          href="#contact"
+          onClick={scrollToBottom}
         >
           Work with me
-        </a>
+        </button>
       </div>
     </div>
     <div className="my-12">
@@ -38,5 +43,8 @@ const FrontPage = ()=> (
       </div>
       </div>
   </div>
-);
+  )
+}
+  
+
 export default FrontPage;
