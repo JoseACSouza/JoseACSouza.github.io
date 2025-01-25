@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c9a09972.css",
+    "main.js": "/static/js/main.c29f1b80.js",
+    "static/media/profileImage.png": "/static/media/profileImage.ecd78d7d453efecace35.png",
+    "static/media/meuHabitat.png": "/static/media/meuHabitat.fbd01b34c5309efa731d.png",
+    "static/media/minhasBisas.png": "/static/media/minhasBisas.79a6f4b4e3bd63ba3d36.png",
+    "static/media/meusPaisEEu.jpg": "/static/media/meusPaisEEu.f0d5d82be9e454ca7896.jpg",
+    "static/media/stickman-stick.gif": "/static/media/stickman-stick.b49db17c470dd7e211b1.gif",
+    "static/media/girl-pc.svg": "/static/media/girl-pc.f982351ec15b111a5c0f3631c4097c63.svg",
+    "static/media/stairs.png": "/static/media/stairs.0db776a122aca616876d.png",
+    "static/media/bgNet.svg": "/static/media/bgNet.c00dca739b3285ec1a9aa4ba29b6679e.svg",
+    "static/media/mysql.svg": "/static/media/mysql.7d3a75394cf948e1e19471a97ae7763a.svg",
+    "static/media/vhs-gothic.woff2": "/static/media/vhs-gothic.875e53afc0a65b8562ff.woff2",
+    "static/media/www.svg": "/static/media/www.4d1c40d386443958c0125cfb3ab77c19.svg",
+    "static/media/laravel.svg": "/static/media/laravel.6f8afa8068ec283083af194c57f425bc.svg",
+    "static/media/react.svg": "/static/media/react.f57b349b4d9df56c9b48c916a8d5adfb.svg",
+    "static/media/python.svg": "/static/media/python.4298525c028749eb4fa154f8f5bd1931.svg",
+    "static/media/eye.svg": "/static/media/eye.de6a7e5f0cb415649539609b62d26841.svg",
+    "static/media/kotlin.svg": "/static/media/kotlin.a197f02062cdbf4b4b9b4860c8024a9d.svg",
+    "static/media/github-logo.svg": "/static/media/github-logo.270355320eb902e3dda3224b8389c2ac.svg",
+    "static/media/typescript.svg": "/static/media/typescript.32fb130a1a03eac5cd3d509d5b96f188.svg",
+    "static/media/docker.svg": "/static/media/docker.402471a8309d58457b2412d97000f7cb.svg",
+    "static/media/pc.svg": "/static/media/pc.5048f1789441d636c49928d860c697fe.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.28b4fc98368be32bdc68bf3c45d75df4.svg",
+    "index.html": "/index.html",
+    "static/media/email.svg": "/static/media/email.14f8bc0c6b8e9cc9331915276c5d8d80.svg",
+    "main.c9a09972.css.map": "/static/css/main.c9a09972.css.map",
+    "main.c29f1b80.js.map": "/static/js/main.c29f1b80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9a09972.css",
+    "static/js/main.c29f1b80.js"
+  ]
+}
