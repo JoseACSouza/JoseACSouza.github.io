@@ -8,7 +8,7 @@ export const projects = [
     banner: "/projectsimg/basis/mysterious-letter.png",
     instructions: "Para testar em sua máquina, clone o repositório e abra o html",
     repo: "https://github.com/JoseACSouza/mysterious-letter",
-    demo: "",
+    demo: "https://joseacsouza.github.io/mysterious-letter",
     main: false,
   },
   {
@@ -19,7 +19,7 @@ export const projects = [
     banner: "/projectsimg/basis/color-guess.png",
     instructions: "Para testar em sua máquina, clone o repositório e abra o html",
     repo: "https://github.com/JoseACSouza/color-guess",
-    demo: "",
+    demo: "https://joseacsouza.github.io/color-guess",
     main: false,
   },
   {
@@ -30,7 +30,7 @@ export const projects = [
     banner: "/projectsimg/basis/todo-list.png",
     instructions: "Para testar em sua máquina, clone o repositório, instale as dependencias com 'npm install' e abra o html",
     repo: "https://github.com/JoseACSouza/todo-list",
-    demo: "",
+    demo: "https://joseacsouza.github.io/todo-list",
     main: false,
   },
   {
@@ -41,7 +41,7 @@ export const projects = [
     banner: "/projectsimg/basis/meme-generator.png",
     instructions: "Para testar em sua máquina, clone o repositório, instale as dependencias com 'npm install' e abra o html",
     repo: "https://github.com/JoseACSouza/meme-generator",
-    demo: "",
+    demo: "https://joseacsouza.github.io/meme-generator",
     main: false,
   },
   {
@@ -63,7 +63,7 @@ export const projects = [
     instructions: "Para testar em sua máquina, clone o repositório, instale as dependencias com 'npm install' e abra o html",
     banner: "/projectsimg/basis/pixel-art.png",
     repo: "https://github.com/JoseACSouza/pixels-art",
-    demo: "",
+    demo: "https://joseacsouza.github.io/pixels-art",
     main: false,
   },
   {
@@ -108,7 +108,7 @@ export const projects = [
     instructions: "Para testar em sua máquina, clone o repositório, instale as dependencias com 'npm install' e então inicie o app web com 'npm start'",
     banner: "/projectsimg/frontend/solar-system.png",
     repo: "https://github.com/JoseACSouza/solar-system",
-    demo: "",
+    demo: "https://joseacsouza.github.io/solar-system",
     main: false,
   },
   {
@@ -119,7 +119,7 @@ export const projects = [
     instructions: "Para testar em sua máquina, clone o repositório, instale as dependencias com 'npm install' e então inicie o app web com 'npm start'",
     banner: "/projectsimg/frontend/tryunfo.png",
     repo: "https://github.com/JoseACSouza/project_tryunfo",
-    demo: "",
+    demo: "https://joseacsouza.github.io/project_tryunfo",
     main: false,
   },
   {
@@ -152,7 +152,7 @@ export const projects = [
     instructions: "Para testar em sua máquina, clone o repositório, instale as dependencias com 'npm install' e então inicie o app web com 'npm start'",
     banner: "/projectsimg/frontend/trybe-tunes.png",
     repo: "https://github.com/JoseACSouza/trybetunes",
-    demo: "",
+    demo: "https://joseacsouza.github.io/trybetunes",
     main: true,
   },
   {
@@ -163,7 +163,7 @@ export const projects = [
     instructions: "Para testar em sua máquina, clone o repositório, instale as dependencias com 'npm install' e então inicie o app web com 'npm start'",
     banner: "/projectsimg/frontend/trybe-wallet.png",
     repo: "https://github.com/JoseACSouza/trybewallet",
-    demo: "",
+    demo: "https://joseacsouza.github.io/trybewallet",
     main: false,
   },
   {
@@ -174,7 +174,7 @@ export const projects = [
     instructions: "Para testar em sua máquina, clone o repositório, instale as dependencias com 'npm install' e então inicie o app web com 'npm start'",
     banner: "/projectsimg/frontend/star-wars.png",
     repo: "https://github.com/JoseACSouza/starwars-planets-search",
-    demo: "",
+    demo: "https://joseacsouza.github.io/starwars-planets-search",
     main: false,
   },
   //data-science
