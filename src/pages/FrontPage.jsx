@@ -6,7 +6,7 @@ import www from '../img/svg/www.svg';
 
 const FrontPage = ()=> {
   const scrollToBottom = () => {
-    window.scrollTo(0, document.body.scrollHeight);
+    window.scrollTo({behavior:"smooth", top: document.body.scrollHeight});
   };
   return(
     <div className="flex flex-col justify-between h-screen max-w-screen">
@@ -17,7 +17,7 @@ const FrontPage = ()=> {
       </div>
       <div>
         <button
-          className="p-2 border rounded-full border-solid border-black text-sm"
+          className="p-2 border rounded-full border-solid border-black text-sm hover:invert bg-white"
           onClick={scrollToBottom}
         >
           Work with me
