@@ -20,7 +20,9 @@ function Highlights() {
         </div>
         <div className="flex-col flex items-end justify-around mr-2">
           <ProjectCard project={mainProjects[2]}/>
-          <Link to="/projects" className="text-main-blue font-bold text-xl">
+          <Link 
+            to="/projects"
+            className="text-main-blue font-bold text-xl hover:text-blue-800 hover:text-2xl hover:font-extrabold">
             Ver todos {'>>>'}
           </Link>
         </div>

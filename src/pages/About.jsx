@@ -10,7 +10,7 @@ export default function About() {
         <img alt="web-background" src={bgNet} />
       </div>
       <div className="z-10 flex justify-around items-center w-screen flex-wrap">
-          <div>
+          <div className="">
             <p className="text-3xl font-bold">
             Eu sou José Alexandre <br />
             <span className="text-main-orange">
@@ -20,7 +20,9 @@ export default function About() {
             apaixonado por inovações <br />
             tecnológicas e rpg de mesa... <br />
             </p>
-            <Link to="/complete-about" className="text-main-blue font-bold">
+            <Link 
+              to="/complete-about"
+              className="text-main-blue font-bold hover:text-blue-800 hover:text-xl">
               saiba mais
             </Link>
           </div>
