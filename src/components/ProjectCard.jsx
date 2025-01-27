@@ -6,8 +6,8 @@ function ProjectCard(props) {
   const { banner, name, describe, repo, demo, stacks } = props.project;
 
   const maxCharDescribe = () => {
-    if (describe.length > 87) {
-      const stringCortada = describe.slice(0, 84);
+    if (describe.length > 76) {
+      const stringCortada = describe.slice(0, 72);
       const ultimoEspaco = stringCortada.lastIndexOf(" ");
       return stringCortada.slice(0, ultimoEspaco)+'...';
   } else {

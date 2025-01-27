@@ -28,7 +28,7 @@ function Home() {
       </div>
       <div className="lg:hidden flex flex-col h-screen justify-center items-center space-y-4">
         <h1 className="text-xl text-main-orange text-center p-2">
-           Versão Mobile Em Contrução...
+           Versão Mobile Em Construção...
         </h1>
         <img src={loading} alt="loading" />
       </div>
